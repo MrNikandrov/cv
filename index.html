@@ -1,182 +1,245 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ilia Nikandrov, Software Developer : Innovating Solutions to Optimize Code
+      and Drive Business Success
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- ***************  ABOUT / PROFILE  **************** -->
+      <header>
+        <div class="content-wrap">
+          <h1>Ilia Nikandrov</h1>
+          <h2>Software Developer</h2>
 
-<head>
-  <meta charset="utf-8">
-  <title>D3viL's personal site</title>
+          <p>
+            As a Software Development Engineer with over 12 years of experience,
+            I am passionate about creating software solutions that are both
+            simple and effective. As Edsger W. Dijkstra once said, "Simplicity
+            is a great virtue but it requires hard work to achieve it and
+            education to appreciate it. And to make matters worse: complexity
+            sells better."
+          </p>
+          <p>
+            Despite the challenges of achieving simplicity, I am committed to
+            putting in the hard work and education necessary to create software
+            that is user-friendly, easy to maintain, and valuable to businesses
+            and end-users alike. I have a proven track record of developing and
+            maintaining software products, integrating with external systems,
+            and ensuring uninterrupted software operation.
+          </p>
+          <p>
+            My dedication to simplicity and user-friendliness extends beyond my
+            work as a Software Development Engineer. I am constantly striving to
+            improve my skills and stay up-to-date with the latest trends in the
+            industry, in order to create software solutions that are efficient
+            and valuable.
+          </p>
+        </div>
+      </header>
 
-<link rel="stylesheet" href="css/style.css">
+      <!-- ************ PROJECTS / PORTFOLIO  ************** -->
 
-  <script type="text/javascript">
-    (function(d, t, e, m) {
-      // Async Rating-Widget initialization.
-      window.RW_Async_Init = function() {
+      <!-- ****************  WORK EXPERIENCE  ******************** -->
+      <section class="work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experience</h2>
+          <p>
+            See my complete work history on
+            <a href="https://www.linkedin.com/in/mrnikandrov/">LinkedIn</a>.
+          </p>
 
-        RW.init({
-          huid: "xxxxxxx",
-          uid: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-          source: "website",
-          options: {
-            "size": "medium",
-            "style": "oxygen"
-          }
-        });
-        RW.render();
-      };
-      // Append Rating-Widget JavaScript library.
-      var rw, s = d.getElementsByTagName(e)[0],
-        id = "rw-js",
-        l = d.location,
-        ck = "Y" + t.getFullYear() +
-        "M" + t.getMonth() + "D" + t.getDate(),
-        p = l.protocol,
-        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
-        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
-      if (d.getElementById(id)) return;
-      rw = d.createElement(e);
-      rw.id = id;
-      rw.async = true;
-      rw.type = "text/javascript";
-      rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
-      s.parentNode.insertBefore(rw, s);
-    }(document, new Date(), "script", "rating-widget.com/"));
-  </script>
-</head>
+          <!-- Job 1 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Software Development Engineer</h3>
+              <p>LLC Technology</p>
+              <p>October 2020-Present</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                Developed of a routing system for web services for interacting
+                with web systems and enterprise databases.
+              </p>
+              <p>Key contributions:</p>
+              <ul>
+                <li>
+                  Created a single entry point for external web requests from
+                  various systems.
+                  <ul>
+                    <li>Created the whole routing system from scratch</li>
+                    <li>
+                      Reduced the number of requests to information systems by
+                      filtering incoming requests, thereby reducing the load on
+                      these systems.
+                    </li>
+                    <li>
+                      Created an interactive environment for managing request
+                      routing
+                    </li>
+                    <li>
+                      Created an automated algorithm that allows you to quickly
+                      add new services for routing
+                    </li>
+                    <li>
+                      Transferred logging of service calls and error logging
+                      from information systems to a single routing system, with
+                      storage in Clickhouse, which made it possible to speed up
+                      error processing.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Improved the information system used by cashiers, which made
+                  it possible to speed up the performance by 8 times.
+                </li>
+                <li>
+                  Reworked the system of interaction between information systems
+                  and the corporate messenger, simplified its further use by
+                  other developers in the code.
+                </li>
+                <li>
+                  Implemented a module for interacting with the RabbitMQ message
+                  broker, made its integration simple and understandable for
+                  developers.
+                </li>
+                <li>
+                  Created full documentation on the implemented modules and
+                  systems in the corporate knowledge base based on Confluence
+                </li>
+              </ul>
+            </div>
+          </section>
 
-<body style="background-color: #f6f5f5">
-  <table cellspacing="40px">
-    <tr>
-      <td><img src="images\circle-cropped.png" alt="d3vil foto" height="200px"></td>
-      <td>
-        <h1>D3viL</h1>
+          <!-- Job 2 -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Senior Software Development Engineer</h3>
+              <p>LLC Gazprom</p>
+              <p>July 2013 - October 2020</p>
+            </div>
+            <div class="job-summary">
+              <p>
+                Developed, administrated, updated and maintenanced of a product
+                based on the 1C Enterprise 8 + Microsoft SQL Database platform.
+              </p>
+              <p>Trained and consulted users of the software product.</p>
+              <p>
+                Set up technological and business processes associated with the
+                operation of a software product.
+              </p>
+              <p>
+                Integrated developed software with external systems, including
+                web, auto-dialing and government information systems.
+              </p>
+              <p>
+                Ensured the uninterrupted operation of the software product.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
 
-        <p><em><a href="https://en.wikipedia.org/wiki/Web_developer">Web Developer</a></em></p>
-        <p>I am good enough for that</p>
-        <hr style="border-color: #276678;border-style: solid; width: 100%;border-width:1px">
-        <h3>Education</h3>
+      <!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+      <section class="education">
+        <div class="content-wrap item-details">
+          <h2>Education</h2>
 
-        <ul>
-          <li>Fullstack Web Developer</li>
-          <li>Java Developer</li>
-          <li>C# Developer</li>
-          <li>Python Developer</li>
-          <li>Data Scientist</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h1>Skills</h1>
-  <table cellspacing="5px"border="1px">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Html</td>
-            <td>
-              <!-- <div class="rating">
-                <input type="radio" value="5" checked>
-                <label>5</label>
-                <input type="radio" value="4">
-                <label>4</label>
-                <input type="radio" value="3">
-                <label>3</label>
-                <input type="radio" value="2">
-                <label>2</label>
-                <input type="radio" value="1">
-                <label>1</label>
-              </div> -->
-              &#11088;&#11088;&#11088;
-            </td>
-          </tr>
-          <tr>
-            <td>JS</td>
-            <td>
-              &#11088;&#11088;&#11088;
-            </td>
-          </tr>
-          <tr>
-            <td>React</td>
-            <td>
-              &#11088;
-            </td>
-          </tr>
-          <tr>
-            <td>SQL</td>
-            <td>
-              &#11088;&#11088;&#11088;&#11088;
-            </td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>CSS</td>
-            <td>
-              &#11088;&#11088;&#11088;
-            </td>
-          </tr>
-          <tr>
-            <td>TypeScript</td>
-            <td>
-              &#11088;
-            </td>
-          </tr>
-          <tr>
-            <td>Node.js</td>
-            <td>
-              &#11088;
-            </td>
-          </tr>
-        </table>
-      </td>
+          <section>
+            <h3>Kurgan State University - Kurgan, Russia</h3>
+            <p>Engineer's degree of Computer Science, 2004-2009</p>
+            <p>
+              Graduated from university as a specialist in software engineering
+            </p>
+          </section>
 
-    </tr>
+          <h2>Certifications</h2>
 
+          <section class="education-item">
+            <h3>
+              Learning path “Become a Software Developer” - LinkedIn Learning,
+              Online
+            </h3>
 
+            <p>Certificate of completion, August 2023</p>
+            
+            <ul>
+              <li>
+                Courses:
+                <ul>
+                  <img src="/images/becomeasoftwaredeveloper.jpg" />
+                  <li>Programming Foundations: Fundamentals</li>
+                  <li>Programming Foundations: Databases</li>
+                  <li>
+                    Succeeding in Web Development: Full Stack and Front End
+                  </li>
+                  <li>HTML Essential Training</li>
+                  <li>CSS Essential Training (2019)</li>
+                  <li>JavaScript Essential Training</li>
+                  <li>Learning Python</li>
+                  <li>Learning Java 11</li>
+                  <li>Learning C#</li>
+                  <li>Learning SQL Programming</li>
+                  <li>Programming Foundations: Web Security (2019)</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
 
-  </table>
+      <section class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
+          <p>
+            List of my projects is under development. More information can be
+            found at
+            <a href="https://www.linkedin.com/in/mrnikandrov/">My LinkedIn</a>.
+          </p>
 
-  <hr>
-  <h1>My work experience</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Job</th>
+          <!-- Project 1-->
+          <!-- Project 2-->
+          <!-- Project 3-->
+        </div>
+      </section>
 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2012-2020</td>
-        <td>1C Software Developer</td>
-      </tr>
-      <tr>
-        <td>2020-2021</td>
-        <td>Senior 1C Software Developer</td>
-      </tr>
-    </tbody>
-    <tfoot>
+      <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+      <footer>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
 
-    </tfoot>
-  </table>
-
-  <hr>
-  <h3>My Hobbies</h3>
-  <ol>
-    <li><a href="sports\index.html">Sports</a></li>
-    <li><a href="https://catfishes.ru/porody-sobak/">Dogs</a></li>
-    <li><a href="http://www.holodnoe-oruzhie.ru/category/starinnye-nozhi">Historical Weapons</a></li>
-  </ol>
-
-  <h3><a href="contacts.html">Contact me</a></h3>
-
-  <hr>
-  <h3>
-    <a href="notebooks.html">Notebooks</a>
-  </h3>
-</body>
-
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:mr.nikandrov@gmail.com">mr.nikandrov@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/MrNikandrov/" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com/mr_elijahNik" target="_blank"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mrnikandrov/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
